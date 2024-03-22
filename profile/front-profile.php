@@ -1,5 +1,5 @@
 <?php
-session_start();
+include 'back-profile.php';
 
 if(!isset($_SESSION["username"])){ //checks if the user is logged. isset checks empty variables
     header("Location: login.php"); //takes user back to login page
@@ -29,7 +29,14 @@ if(!isset($_SESSION["username"])){ //checks if the user is logged. isset checks 
             </nav>
         </header>
         <div class="content">
-            <h1>Username: <?php echo $_SESSION["username"];?></h1>
+            <div class="container">
+                <h1>User Profile</h1>
+                <p><strong>Username:</strong> <?php echo $_SESSION['username']; ?></p>
+                <p><strong>Email:</strong> <?php echo $_SESSION['email']; ?></p>
+                <p><strong>Full Name:</strong> <?php echo $_SESSION['fname'] . ' ' . $_SESSION['mname'] . ' ' . $_SESSION['lname']; ?></p>
+                <p><strong>Gender:</strong> <?php echo $_SESSION['gender']; ?></p>
+                <p><strong>Birthdate:</strong> <?php echo $_SESSION['birthdate']; ?></p>
+            </div>  
         </div>
     </body>
 </html>

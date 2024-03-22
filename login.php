@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if(mysqli_num_rows($result) == 1){ //If there is a match of a row in the result,
         $_SESSION["username"] = $username; //Start session to store the username data for later uses
-        header("Location: home/home.php"); //Redirects to homepage
+        header("Location: home/front-home.php"); //Redirects to homepage
         exit; //Exits current page
     }
     else{
