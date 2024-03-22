@@ -9,7 +9,10 @@
         <div class="container">
             <h1>REGISTER</h1>
             <?php if (isset($_GET["error"]) && $_GET["error"] == 1): ?> 
-                <p style="color: red;">Username already taken</p>
+                <p style="color: red;">Username Alreaedy Taken</p>
+            <?php endif; ?>
+            <?php if (isset($_GET["error"]) && $_GET["error"] == 2): ?> 
+                <p style="color: red;">Connection Error</p>
             <?php endif; ?>
             <form method="post" action="register-script.php">
                 <label for="username">Username: </label>
@@ -20,6 +23,7 @@
 
                 <input type="submit" value="Register">
             </form>
+            <button class="btn-back-login" onclick="location.href='index.php'" type="button">Back to Login</button>
         </div>
     </body>
 </html>
