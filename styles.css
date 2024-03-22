@@ -36,3 +36,14 @@ input[type="submit"]:hover{
     background-color: #C74201;
     color: white;
 }
+.btn-register{
+    background-color: white;
+    color: #C74201;
+    padding: 10px 20px;
+    border: 2px solid #C74201;
+    border-radius: 20px;
+}
+.btn-register:hover{
+    background-color: #C74201;
+    color: white;
+}

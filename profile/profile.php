@@ -11,7 +11,7 @@ if(!isset($_SESSION["username"])){ //checks if the user is logged. isset checks 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Profile</title>
         <link rel="stylesheet" href="profile.css">
     </head>
     <body>
