@@ -22,8 +22,8 @@ if(!isset($_SESSION["username"])){ //checks if the user is logged. isset checks 
             <nav>
                 <ul class="menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="../profile/profile.php">Profile</a></li>
-                    <li><a href="../settings/settings.php">Settings</a></li>
+                    <li><a href="../profile/front-profile.php">Profile</a></li>
+                    <li><a href="../settings/front-settings.php">Settings</a></li>
                     <li><a href="../logout.php" class="logout">Logout</a></li>
                 </ul>
             </nav>

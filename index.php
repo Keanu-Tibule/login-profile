@@ -24,7 +24,7 @@
                 <input type="submit" value="Submit">
             </form>
             <h4>No account yet?</h4>
-            <button class="btn-register" onclick="location.href='register-page.php'" type="button">Register</button>
+            <button class="btn-register" onclick="location.href='front-register.php'" type="button">Register</button>
         </div>
     </body>
 </html>

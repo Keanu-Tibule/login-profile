@@ -11,8 +11,8 @@ if(!isset($_SESSION["username"])){ //checks if the user is logged. isset checks 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Settings</title>
-        <link rel="stylesheet" href="settings.css">
+        <title>Profile</title>
+        <link rel="stylesheet" href="profile.css">
     </head>
     <body>
         <header>
@@ -21,15 +21,15 @@ if(!isset($_SESSION["username"])){ //checks if the user is logged. isset checks 
             </div>
             <nav>
                 <ul class="menu">
-                    <li><a href="../home/home.php">Home</a></li>
-                    <li><a href="../profile/profile.php">Profile</a></li>
-                    <li><a href="#">Settings</a></li>
+                    <li><a href="../home/front-home.php">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="../settings/front-settings.php">Settings</a></li>
                     <li><a href="../logout.php" class="logout">Logout</a></li>
                 </ul>
             </nav>
         </header>
         <div class="content">
-            <h1>Change your settings  <?php echo $_SESSION["username"];?></h1>
+            <h1>Username: <?php echo $_SESSION["username"];?></h1>
         </div>
     </body>
 </html>
