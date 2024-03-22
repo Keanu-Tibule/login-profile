@@ -1,0 +1,39 @@
+body{
+    font-family:sans-serif;
+    background-color:#e0be9a;
+}
+header{
+    padding: 10px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo img{
+    width:100px;
+    height:100px;
+    margin-left:20px;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    margin-left:15px;
+    display:inline-block;
+}
+nav ul li a{
+    color:black;
+    text-decoration:none;
+    padding:15px;
+}
+nav ul li a:hover{
+    color:#282A2A;
+}
+.logout{
+    border:1px solid black;
+}
+.logout:hover{
+    color:white;
+    background:black;
+}
