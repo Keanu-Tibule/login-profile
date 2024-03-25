@@ -14,7 +14,7 @@
             <?php if (isset($_GET["error"]) && $_GET["error"] == 2): ?> 
                 <p style="color: red;">Connection Error</p>
             <?php endif; ?>
-            <form method="post" action="register-script.php">
+            <form method="post" action="back-register.php">
                 <label for="username">Username: </label>
                 <input type="text" id="username" name="username" required>
 

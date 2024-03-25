@@ -17,7 +17,7 @@ if(!isset($_SESSION["username"])){ //checks if the user is logged. isset checks 
     <body>
         <header>
             <div class="logo">
-                <a href="home.php"><img src="media/KDLogoBlack.png" alt="Logo"></a>
+                <a href="#"><img src="media/KDLogoBlack.png" alt="Logo"></a>
             </div>
             <nav>
                 <ul class="menu">
